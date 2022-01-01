@@ -1,0 +1,284 @@
+html, body{
+  min-height: 100%;
+}
+body{
+  position: relative;
+}
+
+
+/*heading*/
+
+.heading {
+    margin-top: 50px;
+    padding-left: 25px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+  }
+  
+  .heading .badge{
+    font-size: large;
+  }
+
+  @media only screen and (max-width:432px) {
+    .heading {
+      font-size: 18px;
+    }
+  }
+  
+/*heading*/
+  
+/*main-div*/
+.maindiv{
+    zoom: 85%;
+}
+
+/*heading*/
+
+.heading {
+  margin-top: 50px;
+  padding-left: 25px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading .badge:hover{
+  background-color: #b8bb11;
+}
+
+/*heading*/
+
+
+
+/*1st row topic*/
+
+.card-img {
+  width: 80px;
+  height: 80px;
+}
+
+.main {
+  margin-top: 60px;
+  /*margin-left: 200px;*/
+}
+
+.margin1 {
+  margin-left: 40px;
+}
+
+.divi {
+  position: relative;
+}
+
+.card-img {
+  float: left;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
+.divi a{
+    text-decoration: none;
+}
+
+.topicname {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+  background-color: #e6e6e6;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width:432px) {
+  .divi {
+    /*margin-left: auto;*/
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+  .card-img {
+    width: 50px;
+    height: 50px;
+  }
+.main {
+    margin-left: 0px;
+  }
+  .topicname {
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+}
+
+/*1st row topic ends*/
+
+@media only screen and (max-width:767px) {
+.divi{
+  margin-bottom: 10px;
+}
+}
+
+
+@media only screen and (max-width:1200px) {
+  .topicname{
+    padding-right: 85px;
+  }
+}
+
+@media only screen and (max-width:920px) {
+  .divrow1 {
+    margin-left: 0px;
+  }
+}
+
+ /*Profile Modal Begin*/
+ .modal {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.modal-header{
+  background: #2d9cc2;
+  color:white;
+}
+.close{
+  color:white;
+  opacity:1.6;
+  border: none;
+}
+.close:hover{
+  color:white;
+ border: none;
+}
+.form-group input{
+  box-shadow: none !important;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #eee;
+  background: white;
+}
+.form-control[readonly] {
+  background-color: white;
+  opacity: 1;
+}
+.profileForm label{
+  font-weight: 600;
+  font-size: 18px;
+}
+.profileForm .form-group input{
+  box-shadow: none !important;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #eee;
+  background: white;
+}
+/*Profile Modal Ends*/
+
+/*footer css*/
+
+.footer {
+  background-color: black;
+  width: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+.column {
+  float: left;
+  color: white;
+  text-align: left;
+}
+
+.column .side {
+  text-align: left;
+}
+
+.column .side .bb .a:hover {
+  text-decoration: none;
+}
+
+ul.bb {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+  font-size: 14px;
+}
+
+/* .button  {
+  background-color:#2d9cc2;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+} */
+
+.footer-btn {
+  background-color: #2d9cc2;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  background-color: #0984ad;
+}
+
+.button1:active {
+  outline: none;
+  background-color: #0984ad;
+}
+
+.column .fa {
+  font-size: 18px;
+}
+
+.counter {
+  height: 30px;
+}
+
+/*footer css*/
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color:#2d9cc2; 
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.block:hover {
+  background-color:#0984ad;
+  
+}

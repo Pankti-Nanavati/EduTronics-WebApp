@@ -1,0 +1,1 @@
+web: gunicorn tbcomp.wsgi — log-file -
